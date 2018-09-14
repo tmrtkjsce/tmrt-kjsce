@@ -73,6 +73,7 @@
       font-style: normal;
   }
    #morebtn{
+      padding-top: 15px;
       background-color: #00264d;
       color: #fff;
   }

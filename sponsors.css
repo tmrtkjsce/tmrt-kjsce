@@ -25,12 +25,12 @@ body, html {
   bottom: 0; 
   display: block;
   position: absolute;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.5);
   color: #fff;
   padding: 0.5em;
 }
 .message>p{
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Merriweather', serif;
   font-size: 1.6em;
 
 }
@@ -48,9 +48,9 @@ body, html {
   }
   #center{
     margin-top: 10px;
-   display: flex;
-     align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 #logos img {

@@ -35,8 +35,8 @@ h1{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-	opacity:0.5;
+	/*opacity:0.75;*/
 }
 
-#myImg:hover {opacity:1;}
-
+/*#myImg:hover {opacity:1;}
+*/

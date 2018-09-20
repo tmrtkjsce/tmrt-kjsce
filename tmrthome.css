@@ -131,7 +131,7 @@
   @media (max-width: 600px) {
     #myCarousel
    {
-     overflow: hidden;
+    overflow: hidden;
   width: inherit;
   height: inherit ;
    }
@@ -157,7 +157,7 @@
 }
 
 .gal img {
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 .baguetteBox-button {

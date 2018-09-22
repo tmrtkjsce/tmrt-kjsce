@@ -46,7 +46,8 @@
       </div>
     </nav>
     <!-- Container (Slideshow Section) -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="container-fluid">    
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -54,23 +55,24 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active col-xs-12">
-          <img class = "slideshow" src="imgs/bot/auv1.png" alt="bot1">
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class = "slideshow fullscreen" src="imgs/bot/auv1.png" alt="bot1">
           <div class="carousel-caption">
             <h3></h3>
             <p></p>
           </div>
         </div>
-        <div class="item col-xs-12">	
-          <img class = "slideshow" src="imgs/bot/auv2.png" alt="bot2" >
+        <div class="item">	
+          <img class = "slideshow fullscreen" src="imgs/bot/auv2.png" alt="bot2" >
           <div class="carousel-caption">
             <h3></h3>
             <p></p>
           </div>
         </div>
-         <div class="item col-xs-12"> 
-          <img class = "slideshow" src="imgs/gallery/oldteam.jpg" alt="oldteam" >
+         <div class="item"> 
+          <img class = "slideshow fullscreen" src="imgs/gallery/oldteam.jpg" alt="oldteam" >
           <div class="carousel-caption">
             <h3></h3>
             <p></p>
@@ -88,17 +90,17 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <!-- Container (About Section) -->
+    </div>       
+<!-- Container (About Section) -->
       <div id="about" class="container-fluid">
         <div class="row">
-          
           <div class="col-sm-4"><img src="tmrtcolor.png" width="100%"></div>
           <div class="col-sm-8">
             <h2>About The Marine Robotics Team</h2><br>
             <h4  style="text-align:justify">The Marine Robotics Team (TMRT) is a student team from K. J. Somaiya College of Engineering, Vidyavihar and that focuses on building autonomous marine systems. TMRT is formed by thirty passionate undergraduate students across four years from various departments who want to apply their knowledge to design and engineer an Autonomous Underwater Vehicle (AUV). Dr. N. R. Gilke is the faculty coordinator of TMRT. We aim to compete in various National and International competitions like NIOT SAVe, SAUVC ROBOSUB and SAUC-E and in the coming years.
             </h4><br>
             <p>Want to know more About Us</p>
-            <br><a href="team.html"><button class="btn btn-default btn-lg" id="morebtn">Our Team</button></a>
+            <a href="team.html"><button class="btn btn-default btn-lg" id="morebtn">Our Team</button></a>
           </div>
           
         </div>
@@ -151,21 +153,7 @@
          <div id="center"> 
           <a href="sponsors.html"><button class="btn btn-default btn-lg" id="morebtn">View More</button></a>
         </div>
-   </div>
- 
-        <!-- <div id = "logos">
-          <div class="row">
-            <div class="col-sm-4 col-xs-6" ><a href="" target="_blank"><img  alt="" src="tmrtcolor.png"  width="90%"></a></div>
-            <div class="col-sm-4 col-xs-6" ><a href="" target="_blank"><img  alt="" src="tmrtcolor.png"  width="90%"></a></div>
-            <div class="col-sm-4 col-xs-6" ><a href="" target="_blank"><img  alt="" src="tmrtcolor.png"  width="90%"></a></div>
-            <div class="col-sm-4 col-xs-6" ><a href="" target="_blank"><img  alt="" src="tmrtcolor.png"  width="90%"></a></div>
-            <div class="col-sm-4 col-xs-6" ><a href="" target="_blank"><img  alt="" src="tmrtcolor.png"  width="90%"></a></div>
-            <div class="col-sm-4 col-xs-6" ><a href="" target="_blank"><img  alt="" src="tmrtcolor.png"  width="90%"></a></div>
-          </div> -->
-     <!--    </div>
-      </div> -->
-
-      
+   </div>   
       <!-- Container (Contact Section) -->
       <div id="contact" class="container-fluid">
         <h2 class="text-center">CONTACT</h2>
@@ -273,28 +261,6 @@
       baguetteBox.run('.gal');
       </script>
       <script>
-        
-        //ten digit mobile no.
-
-//       	$("#phone").keydown(function(event) {
-//           k = event.which;
-//           if ((k >= 96 && k <= 105) || k == 8) {
-//             if ($(this).val().length == 10) {
-//               if (k == 8) {
-//                 return true;
-//               } else {
-//                 event.preventDefault();
-//                 return false;
-
-//               }
-//             }
-//           } else {
-//             event.preventDefault();
-//             return false;
-//           }
-
-//         });
-
         
       //Closing the collapse on navbar onclick
       $('.navbar-collapse a').click(function(){

@@ -109,6 +109,14 @@
       -webkit-transform: translateY(0%);
     }
   }
+
+  .full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
+  
   .carousel-inner img {       
       width: 100%; /* Set width to 100% */      
       height: auto;
@@ -138,7 +146,6 @@
   }
 
 
-  
 .gal {
     padding: 40px;
 }
